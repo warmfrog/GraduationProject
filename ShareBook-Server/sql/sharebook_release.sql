@@ -1,0 +1,1 @@
+INSERT INTO sharebook.`release` (id, release_time) VALUES (1, null);

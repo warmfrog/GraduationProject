@@ -1,0 +1,1 @@
+INSERT INTO sharebook.ubook_book (book_id, ubook_id) VALUES (1, 1);

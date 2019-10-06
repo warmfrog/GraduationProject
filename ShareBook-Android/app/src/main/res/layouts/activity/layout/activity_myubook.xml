@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.booksp.sharebook.ui.activity.MyUbookActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"></include>
+
+    <fragment
+        android:id="@+id/myubook"
+        android:name="cn.booksp.sharebook.ui.fragments.MyUbookFrag"
+        android:layout_width="407dp"
+        android:layout_height="563dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"></fragment>
+    <!--<include layout="@layout/myubook_list"></include>-->
+</android.support.constraint.ConstraintLayout>

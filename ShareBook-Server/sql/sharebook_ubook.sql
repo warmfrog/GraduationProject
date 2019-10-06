@@ -1,0 +1,1 @@
+INSERT INTO sharebook.ubook (id, rent_price, sell_price, type) VALUES (1, 2.50, null, 'onrent');

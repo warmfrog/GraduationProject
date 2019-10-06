@@ -1,0 +1,11 @@
+INSERT INTO sharebook.hibernate_sequence (next_val) VALUES (5);
+INSERT INTO sharebook.hibernate_sequence (next_val) VALUES (5);
+INSERT INTO sharebook.hibernate_sequence (next_val) VALUES (5);
+INSERT INTO sharebook.hibernate_sequence (next_val) VALUES (5);
+INSERT INTO sharebook.hibernate_sequence (next_val) VALUES (5);
+INSERT INTO sharebook.hibernate_sequence (next_val) VALUES (5);
+INSERT INTO sharebook.hibernate_sequence (next_val) VALUES (5);
+INSERT INTO sharebook.hibernate_sequence (next_val) VALUES (5);
+INSERT INTO sharebook.hibernate_sequence (next_val) VALUES (5);
+INSERT INTO sharebook.hibernate_sequence (next_val) VALUES (5);
+INSERT INTO sharebook.hibernate_sequence (next_val) VALUES (5);

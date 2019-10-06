@@ -1,0 +1,1 @@
+INSERT INTO sharebook.user (id, create_date, email, enabled, password, phone, username) VALUES (14, null, '1594914459@qq.com', null, '$2a$10$cHfifGXTMH6OmC2RNmiCjumSxBoHyn3peJrOrZyJFLAGh6kK1u.rC', null, 'warmfrog');

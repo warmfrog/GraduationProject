@@ -1,0 +1,123 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.fragments.SelfIntroFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="356dp"
+        android:layout_marginBottom="380dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="85dp"
+        android:layout_height="81dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" android:layout_marginTop="16dp"
+        android:contentDescription="TODO" android:src="@drawable/aboutme"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp" android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="用户名"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/selfIntroTextView"
+        android:layout_width="256dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="460dp"
+        android:layout_marginEnd="16dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:text="自我介绍"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView" />
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="426dp"
+        android:layout_marginTop="136dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnMyWallet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/btnDefault"
+                android:text="我的钱包"
+                android:textColor="@color/btnDark"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/btnMyUbook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/btnSuccess"
+                android:text="我发布的"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/btnMyOrders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btnWarning"
+                android:text="我的订单"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"/>
+            <Button
+                android:id="@+id/btnUbookList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btnPrimary"
+                android:text="图书列表"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"/>
+            <Button
+                android:id="@+id/btnClearBuffer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btnDark"
+                android:text="清除缓存"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"/>
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btnDanger"
+                android:text="退出登录"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

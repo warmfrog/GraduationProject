@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    username: warmfrog
+    password: 159491
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.106.116.17:3306/sharebook?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: cn.boosp.sharebook.config.MysqlConfig
+#        enable_lazy_load_no_trans: true
+    show-sql: true
+
+
+
+  thymeleaf:
+    cache: false
+  data:
+    rest:
+      base-path: /api
+
+server:
+  port: 8081

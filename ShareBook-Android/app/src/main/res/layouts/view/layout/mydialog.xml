@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal">
+<Button
+    android:id="@+id/scanBtn"
+    android:text="扫描条形码"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:textColor="@color/white"
+    android:background="@color/btnSuccess"/>
+    <Button
+        android:id="@+id/inputBtn"
+        android:text="手动输入ISBN"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:background="@color/btnPrimary"/>
+</LinearLayout>
