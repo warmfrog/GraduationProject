@@ -1,1 +1,0 @@
-INSERT INTO sharebook.book (id, alt, alt_title, author, author_intro, binding, catalog, image, isbn10, isbn13, origin_title, pages, price, pubdate, publisher, subtitle, summary, title, translator, url) VALUES (1, null, null, null, null, null, null, null, null, '9787115330550', null, null, null, null, null, null, null, null, null, null);
